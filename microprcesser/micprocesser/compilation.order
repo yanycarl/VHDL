@@ -1,0 +1,5 @@
+.\src\alu.vhd
+.\src\mem.vhd
+.\src\top.vhd
+.\src\IR.vhd
+.\src\Rom.vhd

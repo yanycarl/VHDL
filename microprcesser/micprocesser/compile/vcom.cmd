@@ -1,0 +1,1 @@
+-w -erf d:/Projects/microprcesser/micprocesser/compile/micprocesser.erf -d d:/Projects/microprcesser/micprocesser/compile -s d:/Projects/microprcesser/library.cfg -j d:/Projects/microprcesser/micprocesser/projlib.cfg -work micprocesser -O3 -e 100 -work micprocesser -2002 d:/Projects/microprcesser/micprocesser/src/IR.vhd d:/Projects/microprcesser/micprocesser/src/alu.vhd 
