@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: d:\Projects\cpu2\alu\src\alu.vhd" 
+MESSAGE "Compile Entity "alu"" 
+MESSAGE "Compile Architecture "sample" of Entity "alu"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 

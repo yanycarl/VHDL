@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: d:\Projects\cpu3\mem\src\mem.vhd" 
+MESSAGE "Compile Entity "mem"" 
+MESSAGE "Compile Architecture "sample" of Entity "mem"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]" 

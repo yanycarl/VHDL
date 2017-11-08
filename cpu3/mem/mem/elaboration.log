@@ -1,0 +1,36 @@
+Active-HDL 10.3.3559.6081  2017-10-12 19:29:01
+
+Elaboration top modules:
+Architecture                  sample(mem)
+
+
+-------------------------------------------------------------------------------------------
+Entity   | Architecture | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------
+mem      | sample       | mem     |      | 10.3.3559.6081  (Windows) | -O3
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+VHDL Package            | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------
+standard                | std     |      |                           | <unavailable>
+TEXTIO                  | std     |      | 10.3.3559.6081  (Windows) |  -2008
+std_logic_1164          | ieee    |      | 10.3.3559.6081  (Windows) |  -2008
+std_logic_arith         | ieee    |      | 10.3.3559.6081  (Windows) | <unavailable>
+STD_LOGIC_UNSIGNED      | ieee    |      | 10.3.3559.6081  (Windows) | <unavailable>
+NUMERIC_STD             | ieee    |      | 10.3.3559.6081  (Windows) |  -2008
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------
+ieee                    | Standard IEEE packages library
+mem                     | None
+std                     | Standard VHDL library
+-------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+mem mem sample
+
+
+The performance of simulation is reduced. Version Student Edition

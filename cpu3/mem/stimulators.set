@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<document type="stimulators" version="1">
+		<set name="ASDB Stimulators" active="1">
+			<stimulator>
+				<signal_path value="/mem/addr1"/>
+				<rawdescription value="VAL:FRM:Override:0:&lt;= 0:0:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/mem/addr2"/>
+				<rawdescription value="VAL:FRM:Override:10010:&lt;= 10010:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/mem/addr3"/>
+				<rawdescription value="VAL:FRM:Override:0:&lt;= 0:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/mem/input"/>
+				<rawdescription value="VAL:FRM:Override:1:&lt;= 1:1:"/>
+			</stimulator>
+		</set>
+	</document>
+</XML>

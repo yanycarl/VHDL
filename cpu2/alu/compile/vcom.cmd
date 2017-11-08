@@ -1,0 +1,1 @@
+-w -erf d:/Projects/cpu2/alu/compile/alu.erf -d d:/Projects/cpu2/alu/compile -s d:/Projects/cpu2/library.cfg -j d:/Projects/cpu2/alu/projlib.cfg -work alu -O3 -e 100 -work alu -2002 d:/Projects/cpu2/alu/src/alu.vhd 

@@ -1,0 +1,24 @@
+timestamp=1507832938769
+
+[~A]
+ModifyID=6
+Version=74
+
+[mem]
+A/sample=21|./../src/mem.vhd|32|1*7658
+BinI32/sample=3*0
+I=0*6545
+I/sample=0*6856
+M=11|0|vd0|1507832938720|./../src/mem.vhd|0*6045*0x3051131573f55d588ecf1ea205d0b2edddd143c7|0*6472*0x23b75c12e3e89f2ef000564498faa8c2
+M/sample=21|0|vd0|1507832938725|./../src/mem.vhd|0*3800*0xe4f34964ed5e9da4209edab3f25f2ccbfbace426|0*5752*0x20116f55b147878295aeff36dce7fc50
+R=./../src/mem.vhd|23
+Version=10.3.3559.6081  (Windows)|00000003789cd3f5370600015b00b0|ac2b1c88a9af0b0d0588c5e0510c5f93e3b0e8cf7d5c052fe984fd383439e609
+Version/sample=10.3.3559.6081  (Windows)|00000003789cd3f5370600015b00b0|fda554d82c8da3f869c84fb96b5fda77e1f52a6363c816aa9fb0f235d29e949a
+
+[~MFT]
+0=10|0mem.mgf|6856|3800
+1=2|1mem.mgf|7658|7658
+3=2|3mem.mgf|0|0
+
+[~U]
+mem=11|0*5835|
