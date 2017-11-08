@@ -1,0 +1,8 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: d:\Projects\expandfulladdr\expandfulladdr\src\addr.vhd" 
+MESSAGE "Compile Entity "fulladd"" 
+MESSAGE "Compile Architecture "simple" of Entity "fulladd"" 
+MESSAGE "File: d:\Projects\expandfulladdr\expandfulladdr\src\eightbitaddr.vhd" 
+MESSAGE "Compile Entity "eightbitaddr"" 
+MESSAGE "Compile Architecture "behavial" of Entity "eightbitaddr"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]" 

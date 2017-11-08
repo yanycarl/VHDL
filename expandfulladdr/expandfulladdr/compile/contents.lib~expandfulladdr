@@ -1,0 +1,5 @@
+43
+~E 1 "./../src/eightbitaddr.vhd" 5 eightbitaddr
+~A 1 "./../src/eightbitaddr.vhd" 13 behavial
+~E 1 "./../src/addr.vhd" 4 fulladd
+~A 1 "./../src/addr.vhd" 8 simple

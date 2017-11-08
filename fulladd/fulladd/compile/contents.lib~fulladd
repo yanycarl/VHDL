@@ -1,0 +1,5 @@
+2
+~E 1 "./../src/adder4bit.vhd" 4 adder4bit
+~A 1 "./../src/adder4bit.vhd" 11 structural
+~E 1 "./../src/fulladd.vhd" 4 fulladd
+~A 1 "./../src/fulladd.vhd" 8 simple

@@ -1,0 +1,144 @@
+# Design: Design fulladd already active.
+# 
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+acom -reorder -O3 -e 100 -work fulladd -2002  $dsn/src/fulladd.vhd $dsn/src/adder4bit.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: d:\Projects\fulladd\fulladd\src\fulladd.vhd
+# Compile Entity "fulladd"
+# Compile Architecture "simple" of Entity "fulladd"
+# File: d:\Projects\fulladd\fulladd\src\adder4bit.vhd
+# Compile Entity "adder4bit"
+# Compile Architecture "structural" of Entity "adder4bit"
+# Top-level unit(s) detected:
+# Entity => adder4bit
+# Compile success 0 Errors 0 Warnings  Analysis time :  3.0 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# Warning: The synthesis tool has not been selected.
+# Warning: Use 'Flow Configuration Settings' option to specify this tool.
+# Warning: The synthesis tool has not been selected.
+asim -O5 +access +r +m+adder4bit adder4bit structural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.3 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7080 kB (elbread=1280 elab2=5650 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location d:\Projects\fulladd\fulladd\src\wave.asdb
+#  9:38, 2017年10月3日
+#  Simulation has been initialized
+run 10 ns
+# KERNEL: stopped at time: 10 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# add wave -noreg {/adder4bit/x}
+# 1 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'd:/Projects/fulladd/fulladd/src/wave.asdb'.
+# add wave -noreg {/adder4bit/y}
+# 1 signal(s) traced.
+# add wave -noreg {/adder4bit/cin}
+# 1 signal(s) traced.
+# add wave -noreg {/adder4bit/sum}
+# 1 signal(s) traced.
+# add wave -noreg {/adder4bit/cout}
+# 1 signal(s) traced.
+run 10 ns
+# KERNEL: stopped at time: 20 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 30 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 40 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 50 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 60 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# KERNEL: Error: KERNEL_0066 Value 2 does not belong to type STD_LOGIC.
+# Error: Cannot force signal "/adder4bit/x" with formula "12".
+# KERNEL: Error: KERNEL_0066 Value 2 does not belong to type STD_LOGIC.
+# Error: Cannot force signal "/adder4bit/y" with formula "20".
+acom -O3 -e 100 -work fulladd -2002  $dsn/src/fulladd.vhd $dsn/src/adder4bit.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: d:\Projects\fulladd\fulladd\src\fulladd.vhd
+# Compile Entity "fulladd"
+# Compile Architecture "simple" of Entity "fulladd"
+# File: d:\Projects\fulladd\fulladd\src\adder4bit.vhd
+# Compile Entity "adder4bit"
+# Compile Architecture "structural" of Entity "adder4bit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# KERNEL: Warning: KERNEL_0291 Signal '/adder4bit/x' has already been traced.
+# 0 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'd:/Projects/fulladd/fulladd/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Signal '/adder4bit/y' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/adder4bit/sum' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/adder4bit/cout' has already been traced.
+# 0 signal(s) traced.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+adder4bit adder4bit structural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7080 kB (elbread=1280 elab2=5650 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location d:\Projects\fulladd\fulladd\src\wave.asdb
+#  9:48, 2017年10月3日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'd:/Projects/fulladd/fulladd/src/wave.asdb'.
+run 10 ns
+# KERNEL: stopped at time: 10 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+# KERNEL: Error: KERNEL_0066 Value 2 does not belong to type STD_LOGIC.
+# Error: Cannot force signal "/adder4bit/y" with formula "2".
+# KERNEL: Error: KERNEL_0066 Value 2 does not belong to type STD_LOGIC.
+# Error: Cannot force signal "/adder4bit/y" with formula "2".
+# 1 signal(s) traced.
+run 10 ns
+# KERNEL: stopped at time: 20 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+run 10 ns
+# KERNEL: stopped at time: 30 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.

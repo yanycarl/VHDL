@@ -1,0 +1,9 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+fulladd=1
+Built-in symbols=0
+[COMPILESTATUS|.\src\fulladd.vhd]
+FileTimeLow=30620708
+Status=Modified
+[COMPILESTATUS|.\src\adder4bit.vhd]
+FileTimeLow=30620706
+Status=Compiled

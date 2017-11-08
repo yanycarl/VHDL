@@ -1,0 +1,68 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=expandfulladdr
+[Library]
+expandfulladdr=.\expandfulladdr\expandfulladdr.lib
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+expandfulladdr=.
+Active_lib=
+[IMPLEMENTATION]
+UCF=
+[Files]
+/addr.vhd=-1
+/eightbitaddr.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+[Files.Data]
+.\src\addr.vhd=VHDL Source Code
+.\src\eightbitaddr.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+[Folders]
+Name3=Makefiles
+Directory3=d:\Projects\expandfulladdr\expandfulladdr\
+Extension3=mak
+Name4=Memory
+Directory4=d:\Projects\expandfulladdr\expandfulladdr\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=d:\Projects\expandfulladdr\expandfulladdr\
+Extension5=dll
+Name6=PDF
+Directory6=d:\Projects\expandfulladdr\expandfulladdr\
+Extension6=pdf
+Name7=HTML
+Directory7=d:\Projects\expandfulladdr\expandfulladdr\
+Extension7=htm;html
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=eightbitaddr|behavial|0  
+ShowHide=ShowTopLevel
+Selected=

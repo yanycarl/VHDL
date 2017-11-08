@@ -1,0 +1,1 @@
+-w -erf d:/Projects/fulladd/fulladd/compile/fulladd.erf -d d:/Projects/fulladd/fulladd/compile -s d:/Projects/fulladd/library.cfg -j d:/Projects/fulladd/fulladd/projlib.cfg -work fulladd -O3 -e 100 -work fulladd -2002 d:/Projects/fulladd/fulladd/src/fulladd.vhd d:/Projects/fulladd/fulladd/src/adder4bit.vhd 

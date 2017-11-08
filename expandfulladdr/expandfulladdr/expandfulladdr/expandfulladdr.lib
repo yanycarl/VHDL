@@ -1,0 +1,36 @@
+timestamp=1507195667930
+
+[~A]
+ModifyID=43
+Version=74
+
+[eightbitaddr]
+A/behavial=21|./../src/eightbitaddr.vhd|13|1*77186
+BinI32/behavial=3*6686
+I=0*23594
+I/behavial=0*25606
+M=11|0|vd0|1507195575543|./../src/eightbitaddr.vhd|0*23151*0xa365edce3c8de58b833c3e48b89fe6909e598124|0*23503*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavial=21|0|vd0|1507195667901|./../src/eightbitaddr.vhd|0*25010*0xe1e487e5d8730e20109aeb82b00aa5571be18fad|0*25503*0x20116f55b147878295aeff36dce7fc50
+R=./../src/eightbitaddr.vhd|5
+Version=10.3.3559.6081  (Windows)|00000003789cd3f5370600015b00b0|f1d3e57b890430de8bedc7006a2f35dca146d13bbecb5b74ffb2ea779f62ad72e2d02ebed53919dcd4cfbf75d28a0e8d
+Version/behavial=10.3.3559.6081  (Windows)|00000003789cd3f5370600015b00b0|b8a6aa67492ffbb266da8f49365657f8f1e6d78b2bd53e5b11638c6f5ec5943e69b7d91a33f122d48242cde4d6e8fc51
+
+[fulladd]
+A/simple=21|./../src/addr.vhd|8|1*76387
+BinI32/simple=3*6364
+I=0*480
+I/simple=0*24804
+M=11|0|vd0|1507021078283|./../src/addr.vhd|0*192*0xeb3f4462a3df4bf6ff834adc3be76aea6ac0eb20|0*402*0x23b75c12e3e89f2ef000564498faa8c2
+M/simple=21|0|vd0|1507195667869|./../src/addr.vhd|0*679*0x5856b8f780dbb24a040325886b06724bb9c6373d|0*878*0x20116f55b147878295aeff36dce7fc50
+R=./../src/addr.vhd|4
+Version=10.3.3559.6081  (Windows)|00000003789cd3f5370600015b00b0|92df8fdc30a8b2a1596de732b21e3c2d26527262ddaa47cb266f3a3c4d9b973a2c42f65e04edf274924cb80cb64f99ba
+Version/simple=10.3.3559.6081  (Windows)|00000003789cd3f5370600015b00b0|b487ab85f94f4fc480b401309846a475b2b7275d8738031de230cfbe77e88e69
+
+[~MFT]
+0=10|0expandfulladdr.mgf|25606|22861
+1=4|1expandfulladdr.mgf|77186|76387
+3=4|3expandfulladdr.mgf|6686|6364
+
+[~U]
+eightbitaddr=11|0*22904|
+fulladd=11|0*0|

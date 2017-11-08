@@ -1,0 +1,20 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+expandfulladdr=1
+Built-in symbols=0
+[COMPILESTATUS|.\src\addr.vhd]
+FileTimeLow=30620709
+Status=Compiled
+[COMPILESTATUS|.\src\eightbitaddr.vhd]
+FileTimeLow=30621116
+Status=Compiled
+[CACHEDOC|Aldec.Project.Generic.7|.\expandfulladdr\expandfulladdr.adf|]
+Path=/eightbitaddr
+[COMPILESTATUS|.\src\untitled.asdb]
+FileTimeLow=30621118
+Status=Modified
+[COMPILESTATUS|.\src\untitled.awc]
+FileTimeLow=30621118
+Status=Modified
+[CACHEDOC|Aldec.WaveFormASDB.7|.\expandfulladdr\src/untitled.awc|]
+Frame=0
+WindowWorkspaceInfo="LAAAAAAAAAADAAAA/////////////////////ygBAABfAAAAAAYAAHECAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIAAAAyAAAAAAAAAAAAAAAyAAAAMgAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAEAAAA="

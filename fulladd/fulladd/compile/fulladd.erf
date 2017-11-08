@@ -1,0 +1,8 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: d:\Projects\fulladd\fulladd\src\fulladd.vhd" 
+MESSAGE "Compile Entity "fulladd"" 
+MESSAGE "Compile Architecture "simple" of Entity "fulladd"" 
+MESSAGE "File: d:\Projects\fulladd\fulladd\src\adder4bit.vhd" 
+MESSAGE "Compile Entity "adder4bit"" 
+MESSAGE "Compile Architecture "structural" of Entity "adder4bit"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]" 

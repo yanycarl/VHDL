@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<document type="stimulators" version="1">
+		<set name="ASDB Stimulators" active="1">
+			<stimulator>
+				<signal_path value="/adder4bit/cin"/>
+				<rawdescription value="VAL:FRM:Override:1:&lt;= 1:1:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/adder4bit/x"/>
+				<rawdescription value="VAL:FRM:Override:1011:&lt;= 1011:0:"/>
+			</stimulator>
+			<stimulator>
+				<signal_path value="/adder4bit/y"/>
+				<rawdescription value="VAL:FRM:Override:100:&lt;= 100:1:"/>
+			</stimulator>
+		</set>
+	</document>
+</XML>
