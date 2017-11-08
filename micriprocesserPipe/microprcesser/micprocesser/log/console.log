@@ -1,0 +1,3292 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Design Explorer: Shortcut to "D:\Projects\VHDL\micriprocesserPipe\microprcesser\microprcesser.aws" design added.
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IRDOF.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRDOF.vhd
+# Compile Entity "ir"
+# Warning: COMP96_0994: Multiple entity "ir" found in "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRDOF.vhd", "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd".
+# Compile Architecture "sample" of Entity "ir"
+# Warning: COMP96_0994: Multiple architecture "sample" of entity "ir" found in "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRDOF.vhd", "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd".
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.6 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IRDOF.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRDOF.vhd
+# Compile Entity "ir"
+# Warning: COMP96_0994: Multiple entity "ir" found in "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRDOF.vhd", "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd".
+# Compile Architecture "sample" of Entity "ir"
+# Warning: COMP96_0994: Multiple architecture "sample" of entity "ir" found in "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRDOF.vhd", "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd".
+# Compile success 0 Errors 2 Warnings  Analysis time :  0.2 [s]
+asim -O5 +access +r +m+top top sample
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: The contents of entity 'ir' instantiated in architecture 'sample' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Elaboration time 0.1 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/top.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+asim -O5 +access +r +m+top top sample
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7249 kB (elbread=1280 elab2=5819 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\wave.asdb
+#  22:14, 2017年11月8日
+#  Simulation has been initialized
+# 24 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb'.
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IRDOF.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Error: COMP96_0525: top.vhd : (122, 2): Too many actuals in the port map aspect in the component instantiation.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRDOF.vhd
+# Compile Entity "ir"
+# Warning: COMP96_0994: Multiple entity "ir" found in "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRDOF.vhd", "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd".
+# Compile Architecture "sample" of Entity "ir"
+# Warning: COMP96_0994: Multiple architecture "sample" of entity "ir" found in "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRDOF.vhd", "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd".
+# Compile failure 1 Errors 2 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IRDOF.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Error: COMP96_0525: top.vhd : (122, 2): Too many actuals in the port map aspect in the component instantiation.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRDOF.vhd
+# Compile Entity "ir"
+# Warning: COMP96_0994: Multiple entity "ir" found in "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRDOF.vhd", "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd".
+# Compile Architecture "sample" of Entity "ir"
+# Warning: COMP96_0994: Multiple architecture "sample" of entity "ir" found in "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRDOF.vhd", "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd".
+# Compile failure 1 Errors 2 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IRDOF.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Error: COMP96_0525: top.vhd : (122, 2): Too many actuals in the port map aspect in the component instantiation.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRDOF.vhd
+# Compile Entity "ir"
+# Warning: COMP96_0994: Multiple entity "ir" found in "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRDOF.vhd", "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd".
+# Compile Architecture "sample" of Entity "ir"
+# Warning: COMP96_0994: Multiple architecture "sample" of entity "ir" found in "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRDOF.vhd", "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd".
+# Compile failure 1 Errors 2 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Error: COMP96_0525: top.vhd : (122, 2): Too many actuals in the port map aspect in the component instantiation.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Error: COMP96_0018: IR.vhd : (24, 2): Identifier expected.
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/IR.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Error: COMP96_0367: top.vhd : (122, 104): Improper array length (5). Expected length is 2.
+# Error: COMP96_0367: top.vhd : (122, 122): Improper array length (32). Expected length is 5.
+# Error: COMP96_0100: top.vhd : (122, 66): Actual parameter type in port map does not match the type of the formal port 'instructionOut'.
+# Error: COMP96_0100: top.vhd : (122, 83): Actual parameter type in port map does not match the type of the formal port 'mem_r'.
+# Error: COMP96_0100: top.vhd : (122, 138): Actual parameter type in port map does not match the type of the formal port 'instance_number'.
+# Error: COMP96_0100: top.vhd : (122, 150): Actual parameter type in port map does not match the type of the formal port 'instance_en'.
+# Error: COMP96_0207: top.vhd : (122, 0): No actual specified for local port "pc_fromalu".
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Error: COMP96_0078: top.vhd : (122, 66): Unknown identifier "instructionOut".
+# Error: COMP96_0133: top.vhd : (122, 66): Cannot find object declaration.
+# Error: COMP96_0104: top.vhd : (122, 66): Undefined type of expression.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Error: COMP96_0078: top.vhd : (122, 66): Unknown identifier "instructionOut".
+# Error: COMP96_0133: top.vhd : (122, 66): Cannot find object declaration.
+# Error: COMP96_0104: top.vhd : (122, 66): Undefined type of expression.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Error: COMP96_0078: top.vhd : (122, 66): Unknown identifier "instructionOut".
+# Error: COMP96_0133: top.vhd : (122, 66): Cannot find object declaration.
+# Error: COMP96_0104: top.vhd : (122, 66): Undefined type of expression.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7249 kB (elbread=1280 elab2=5819 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\wave.asdb
+#  22:21, 2017年11月8日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb'.
+run
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__25.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g4,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 44450 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 89250 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 134050 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 178850 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 223650 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 268450 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 313250 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 358050 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 402850 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 447650 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 492450 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 537250 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 582050 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 626850 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 671650 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 716450 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 761250 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 806050 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 850850 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 895650 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 940450 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 985250 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1030050 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1074850 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1119650 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1164450 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1209250 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1254050 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1298850 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1343650 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1388450 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1433250 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1478050 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1522850 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1567650 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1612450 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1657250 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1702050 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1746850 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1791650 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1836450 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1881250 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1926050 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 1970850 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2015650 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2060450 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2105250 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2150050 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2194850 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2239650 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2284450 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2329250 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2374050 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2418850 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2463650 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2508450 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2553250 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2598050 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+# KERNEL: WARNING: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# KERNEL: Time: 2642850 ns,  Iteration: 1,  Instance: /top/g3,  Process: line__30.
+endsim
+# KERNEL: stopped at time: 2662100 ns
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+top top sample
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7249 kB (elbread=1280 elab2=5819 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\wave.asdb
+#  22:22, 2017年11月8日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__25.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g4,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: stopped at time: 100 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+top top sample
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7249 kB (elbread=1280 elab2=5819 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\wave.asdb
+#  22:22, 2017年11月8日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb'.
+# 25 signal(s) traced.
+run 100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__25.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g4,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: stopped at time: 100 ns
+run 100ns
+# KERNEL: stopped at time: 200 ns
+run 100ns
+# KERNEL: stopped at time: 300 ns
+run 100ns
+# KERNEL: stopped at time: 400 ns
+run 100ns
+# KERNEL: stopped at time: 500 ns
+run 100ns
+# KERNEL: stopped at time: 600 ns
+run 100ns
+# KERNEL: stopped at time: 700 ns
+run 100ns
+# KERNEL: stopped at time: 800 ns
+run 100ns
+# KERNEL: stopped at time: 900 ns
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "ir"
+# Warning: COMP96_0994: Multiple entity "ir" found in "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd", "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd".
+# Compile Architecture "sample" of Entity "ir"
+# Warning: COMP96_0994: Multiple architecture "sample" of entity "ir" found in "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd", "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd".
+# Error: COMP96_0078: IREX.vhd : (97, 4): Unknown identifier "rom_addr".
+# Error: COMP96_0133: IREX.vhd : (97, 4): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (102, 4): Unknown identifier "rom_addr".
+# Error: COMP96_0133: IREX.vhd : (102, 4): Cannot find object declaration.
+# Compile failure 4 Errors 2 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Error: COMP96_0367: top.vhd : (122, 38): Improper array length (7). Expected length is 6.
+# Error: COMP96_0367: top.vhd : (122, 47): Improper array length (6). Expected length is 32.
+# Error: COMP96_0367: top.vhd : (122, 112): Improper array length (2). Expected length is 5.
+# Error: COMP96_0367: top.vhd : (122, 131): Improper array length (5). Expected length is 32.
+# Error: COMP96_0100: top.vhd : (122, 66): Actual parameter type in port map does not match the type of the formal port 'clk'.
+# Error: COMP96_0100: top.vhd : (122, 92): Actual parameter type in port map does not match the type of the formal port 'reg_a'.
+# Error: COMP96_0100: top.vhd : (122, 137): Actual parameter type in port map does not match the type of the formal port 'instance_en'.
+# Error: COMP96_0100: top.vhd : (122, 153): Actual parameter type in port map does not match the type of the formal port 'pc_fromalu'.
+# Error: COMP96_0525: top.vhd : (122, 2): Too many actuals in the port map aspect in the component instantiation.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "ir"
+# Error: COMP96_0018: IREX.vhd : (22, 2): Identifier expected.
+# Compile Architecture "sample" of Entity "ir"
+# Warning: COMP96_0994: Multiple architecture "sample" of entity "ir" found in "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd", "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd".
+# Error: COMP96_0078: IREX.vhd : (94, 4): Unknown identifier "pc".
+# Error: COMP96_0133: IREX.vhd : (94, 4): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (97, 4): Unknown identifier "pc".
+# Error: COMP96_0133: IREX.vhd : (97, 4): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (97, 50): Unknown identifier "pc".
+# Error: COMP96_0133: IREX.vhd : (97, 50): Cannot find object declaration.
+# Compile failure 16 Errors 1 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Error: COMP96_0018: IREX.vhd : (22, 2): Identifier expected.
+# Error: COMP96_0111: IREX.vhd : (23, 12): Labels do not match.
+# Compile Architecture "sample" of Entity "ir"
+# Warning: COMP96_0994: Multiple architecture "sample" of entity "ir" found in "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd", "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd".
+# Error: COMP96_0078: IREX.vhd : (94, 4): Unknown identifier "pc".
+# Error: COMP96_0133: IREX.vhd : (94, 4): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (97, 4): Unknown identifier "pc".
+# Error: COMP96_0133: IREX.vhd : (97, 4): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (97, 50): Unknown identifier "pc".
+# Error: COMP96_0133: IREX.vhd : (97, 50): Cannot find object declaration.
+# Compile failure 8 Errors 1 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Error: COMP96_0111: IREX.vhd : (23, 12): Labels do not match.
+# Compile Architecture "sample" of Entity "ir"
+# Warning: COMP96_0994: Multiple architecture "sample" of entity "ir" found in "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd", "D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd".
+# Error: COMP96_0078: IREX.vhd : (94, 4): Unknown identifier "pc".
+# Error: COMP96_0133: IREX.vhd : (94, 4): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (97, 4): Unknown identifier "pc".
+# Error: COMP96_0133: IREX.vhd : (97, 4): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (97, 50): Unknown identifier "pc".
+# Error: COMP96_0133: IREX.vhd : (97, 50): Cannot find object declaration.
+# Compile failure 7 Errors 1 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# Error: COMP96_0078: IREX.vhd : (94, 4): Unknown identifier "pc".
+# Error: COMP96_0133: IREX.vhd : (94, 4): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (94, 8): Unknown identifier "pc_fromalu".
+# Error: COMP96_0078: IREX.vhd : (97, 4): Unknown identifier "pc".
+# Error: COMP96_0133: IREX.vhd : (97, 4): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (97, 50): Unknown identifier "pc".
+# Error: COMP96_0133: IREX.vhd : (97, 50): Cannot find object declaration.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.5 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Error: COMP96_0367: top.vhd : (124, 40): Improper array length (7). Expected length is 6.
+# Error: COMP96_0367: top.vhd : (124, 49): Improper array length (6). Expected length is 32.
+# Error: COMP96_0367: top.vhd : (124, 114): Improper array length (2). Expected length is 5.
+# Error: COMP96_0367: top.vhd : (124, 133): Improper array length (5). Expected length is 32.
+# Error: COMP96_0100: top.vhd : (124, 68): Actual parameter type in port map does not match the type of the formal port 'clk'.
+# Error: COMP96_0100: top.vhd : (124, 94): Actual parameter type in port map does not match the type of the formal port 'reg_a'.
+# Error: COMP96_0100: top.vhd : (124, 139): Actual parameter type in port map does not match the type of the formal port 'instance_en'.
+# Error: COMP96_0525: top.vhd : (124, 2): Too many actuals in the port map aspect in the component instantiation.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# Compile failure 8 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Error: COMP96_0078: top.vhd : (124, 62): Unknown identifier "instructionOut2".
+# Error: COMP96_0133: top.vhd : (124, 62): Cannot find object declaration.
+# Error: COMP96_0104: top.vhd : (124, 62): Undefined type of expression.
+# Error: COMP96_0525: top.vhd : (124, 2): Too many actuals in the port map aspect in the component instantiation.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Error: COMP96_0525: top.vhd : (125, 2): Too many actuals in the port map aspect in the component instantiation.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Error: COMP96_0010: IR.vhd : (6, 14): Invalid literal.
+# Compile Entity "ir"
+# Error: COMP96_0019: IR.vhd : (6, 14): Keyword 'end' expected.
+# Error: COMP96_0015: IR.vhd : (6, 14): ';' expected.
+# Error: COMP96_0016: IR.vhd : (7, 2): Design unit declaration expected.
+# Compile Entity "ir"
+# Error: COMP96_0019: IR.vhd : (21, 14): Keyword 'is' expected.
+# Error: COMP96_0019: IR.vhd : (21, 14): Keyword 'end' expected.
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# Compile failure 6 Errors 0 Warnings  Analysis time :  1.0 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# Error: COMP96_0078: IR.vhd : (30, 3): Unknown identifier "opcode".
+# Error: COMP96_0133: IR.vhd : (30, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (34, 3): Unknown identifier "reg_c".
+# Error: COMP96_0133: IR.vhd : (34, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (35, 3): Unknown identifier "mem_w".
+# Error: COMP96_0133: IR.vhd : (35, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (42, 3): Unknown identifier "reg_c".
+# Error: COMP96_0133: IR.vhd : (42, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (43, 3): Unknown identifier "opcode".
+# Error: COMP96_0133: IR.vhd : (43, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (45, 3): Unknown identifier "mem_w".
+# Error: COMP96_0133: IR.vhd : (45, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (48, 3): Unknown identifier "opcode".
+# Error: COMP96_0133: IR.vhd : (48, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (52, 3): Unknown identifier "reg_c".
+# Error: COMP96_0133: IR.vhd : (52, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (53, 3): Unknown identifier "mem_w".
+# Error: COMP96_0133: IR.vhd : (53, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (59, 3): Unknown identifier "reg_c".
+# Error: COMP96_0133: IR.vhd : (59, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (60, 3): Unknown identifier "opcode".
+# Error: COMP96_0133: IR.vhd : (60, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (61, 3): Unknown identifier "mem_w".
+# Error: COMP96_0133: IR.vhd : (61, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (65, 3): Unknown identifier "opcode".
+# Error: COMP96_0133: IR.vhd : (65, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (68, 3): Unknown identifier "mem_w".
+# Error: COMP96_0133: IR.vhd : (68, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (70, 3): Unknown identifier "addr3".
+# Error: COMP96_0133: IR.vhd : (70, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (73, 3): Unknown identifier "opcode".
+# Error: COMP96_0133: IR.vhd : (73, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (76, 3): Unknown identifier "mem_w".
+# Error: COMP96_0133: IR.vhd : (76, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (82, 3): Unknown identifier "mem_w".
+# Error: COMP96_0133: IR.vhd : (82, 3): Cannot find object declaration.
+# Error: COMP96_0078: IR.vhd : (84, 3): Unknown identifier "opcode".
+# Error: COMP96_0133: IR.vhd : (84, 3): Cannot find object declaration.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# Compile failure 38 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Error: COMP96_0367: top.vhd : (123, 47): Improper array length (6). Expected length is 32.
+# Error: COMP96_0367: top.vhd : (123, 54): Improper array length (32). Expected length is 7.
+# Error: COMP96_0367: top.vhd : (123, 66): Improper array length (32). Expected length is 7.
+# Error: COMP96_0367: top.vhd : (123, 105): Improper array length (2). Expected length is 32.
+# Error: COMP96_0367: top.vhd : (123, 125): Improper array length (5). Expected length is 32.
+# Error: COMP96_0100: top.vhd : (123, 38): Actual parameter type in port map does not match the type of the formal port 'clk'.
+# Error: COMP96_0100: top.vhd : (123, 81): Actual parameter type in port map does not match the type of the formal port 'addr1'.
+# Error: COMP96_0100: top.vhd : (123, 86): Actual parameter type in port map does not match the type of the formal port 'addr2'.
+# Error: COMP96_0100: top.vhd : (123, 92): Actual parameter type in port map does not match the type of the formal port 'reg_a'.
+# Error: COMP96_0100: top.vhd : (123, 112): Actual parameter type in port map does not match the type of the formal port 'instance_en'.
+# Error: COMP96_0100: top.vhd : (123, 119): Actual parameter type in port map does not match the type of the formal port 'mem_r'.
+# Error: COMP96_0525: top.vhd : (123, 2): Too many actuals in the port map aspect in the component instantiation.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# Compile failure 12 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Error: COMP96_0018: IREX.vhd : (12, 2): Identifier expected.
+# Compile Architecture "sample" of Entity "irex"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# Error: COMP96_0078: IREX.vhd : (22, 3): Unknown identifier "mem_r".
+# Error: COMP96_0133: IREX.vhd : (22, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (23, 3): Unknown identifier "reg_a".
+# Error: COMP96_0133: IREX.vhd : (23, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (24, 3): Unknown identifier "reg_b".
+# Error: COMP96_0133: IREX.vhd : (24, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (25, 3): Unknown identifier "reg_c".
+# Error: COMP96_0133: IREX.vhd : (25, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (26, 3): Unknown identifier "mem_w".
+# Error: COMP96_0133: IREX.vhd : (26, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (30, 3): Unknown identifier "mem_r".
+# Error: COMP96_0133: IREX.vhd : (30, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (31, 3): Unknown identifier "reg_a".
+# Error: COMP96_0133: IREX.vhd : (31, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (32, 3): Unknown identifier "reg_b".
+# Error: COMP96_0133: IREX.vhd : (32, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (33, 3): Unknown identifier "reg_c".
+# Error: COMP96_0133: IREX.vhd : (33, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (35, 3): Unknown identifier "instance_en".
+# Error: COMP96_0133: IREX.vhd : (35, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (36, 3): Unknown identifier "mem_w".
+# Error: COMP96_0133: IREX.vhd : (36, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (38, 3): Unknown identifier "mem_r".
+# Error: COMP96_0133: IREX.vhd : (38, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (40, 3): Unknown identifier "reg_a".
+# Error: COMP96_0133: IREX.vhd : (40, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (41, 3): Unknown identifier "instance_number".
+# Error: COMP96_0133: IREX.vhd : (41, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (42, 3): Unknown identifier "instance_number".
+# Error: COMP96_0133: IREX.vhd : (42, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (43, 3): Unknown identifier "reg_c".
+# Error: COMP96_0133: IREX.vhd : (43, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (44, 3): Unknown identifier "mem_w".
+# Error: COMP96_0133: IREX.vhd : (44, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (45, 3): Unknown identifier "instance_en".
+# Error: COMP96_0133: IREX.vhd : (45, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (47, 3): Unknown identifier "mem_r".
+# Error: COMP96_0133: IREX.vhd : (47, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (48, 6): Unknown identifier "addr1".
+# Error: COMP96_0133: IREX.vhd : (48, 6): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (49, 3): Unknown identifier "addr2".
+# Error: COMP96_0133: IREX.vhd : (49, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (50, 3): Unknown identifier "reg_c".
+# Error: COMP96_0133: IREX.vhd : (50, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (52, 3): Unknown identifier "mem_w".
+# Error: COMP96_0133: IREX.vhd : (52, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (53, 3): Unknown identifier "instance_en".
+# Error: COMP96_0133: IREX.vhd : (53, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (55, 3): Unknown identifier "mem_r".
+# Error: COMP96_0133: IREX.vhd : (55, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (57, 3): Unknown identifier "reg_a".
+# Error: COMP96_0133: IREX.vhd : (57, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (58, 3): Unknown identifier "reg_b".
+# Error: COMP96_0133: IREX.vhd : (58, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (59, 3): Unknown identifier "mem_w".
+# Error: COMP96_0133: IREX.vhd : (59, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (60, 3): Unknown identifier "instance_en".
+# Error: COMP96_0133: IREX.vhd : (60, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (61, 3): Unknown identifier "addr3".
+# Error: COMP96_0133: IREX.vhd : (61, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (63, 3): Unknown identifier "mem_r".
+# Error: COMP96_0133: IREX.vhd : (63, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (65, 3): Unknown identifier "reg_a".
+# Error: COMP96_0133: IREX.vhd : (65, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (66, 3): Unknown identifier "reg_b".
+# Error: COMP96_0133: IREX.vhd : (66, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (67, 3): Unknown identifier "mem_w".
+# Error: COMP96_0133: IREX.vhd : (67, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (68, 3): Unknown identifier "instance_number".
+# Error: COMP96_0133: IREX.vhd : (68, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (69, 3): Unknown identifier "instance_number".
+# Error: COMP96_0133: IREX.vhd : (69, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (70, 3): Unknown identifier "instance_en".
+# Error: COMP96_0133: IREX.vhd : (70, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (73, 3): Unknown identifier "mem_w".
+# Error: COMP96_0133: IREX.vhd : (73, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (74, 3): Unknown identifier "mem_r".
+# Error: COMP96_0133: IREX.vhd : (74, 3): Cannot find object declaration.
+# Error: COMP96_0078: IREX.vhd : (76, 3): Unknown identifier "instance_en".
+# Error: COMP96_0133: IREX.vhd : (76, 3): Cannot find object declaration.
+# Compile failure 80 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Error: COMP96_0367: top.vhd : (125, 62): Improper array length (32). Expected length is 6.
+# Error: COMP96_0100: top.vhd : (125, 40): Actual parameter type in port map does not match the type of the formal port 'clk'.
+# Error: COMP96_0100: top.vhd : (125, 78): Actual parameter type in port map does not match the type of the formal port 'instructionOut'.
+# Error: COMP96_0525: top.vhd : (125, 2): Too many actuals in the port map aspect in the component instantiation.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Error: COMP96_0018: IRWB.vhd : (13, 2): Identifier expected.
+# Compile Architecture "sample" of Entity "irwb"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Error: COMP96_0078: IRWB.vhd : (23, 3): Unknown identifier "opcode".
+# Error: COMP96_0133: IRWB.vhd : (23, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (24, 3): Unknown identifier "mem_r".
+# Error: COMP96_0133: IRWB.vhd : (24, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (25, 3): Unknown identifier "reg_a".
+# Error: COMP96_0133: IRWB.vhd : (25, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (26, 3): Unknown identifier "reg_b".
+# Error: COMP96_0133: IRWB.vhd : (26, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (32, 3): Unknown identifier "mem_r".
+# Error: COMP96_0133: IRWB.vhd : (32, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (33, 3): Unknown identifier "reg_a".
+# Error: COMP96_0133: IRWB.vhd : (33, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (34, 3): Unknown identifier "reg_b".
+# Error: COMP96_0133: IRWB.vhd : (34, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (36, 3): Unknown identifier "opcode".
+# Error: COMP96_0133: IRWB.vhd : (36, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (37, 3): Unknown identifier "instance_en".
+# Error: COMP96_0133: IRWB.vhd : (37, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (40, 3): Unknown identifier "mem_r".
+# Error: COMP96_0133: IRWB.vhd : (40, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (41, 3): Unknown identifier "opcode".
+# Error: COMP96_0133: IRWB.vhd : (41, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (42, 3): Unknown identifier "reg_a".
+# Error: COMP96_0133: IRWB.vhd : (42, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (43, 3): Unknown identifier "instance_number".
+# Error: COMP96_0133: IRWB.vhd : (43, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (44, 3): Unknown identifier "instance_number".
+# Error: COMP96_0133: IRWB.vhd : (44, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (47, 3): Unknown identifier "instance_en".
+# Error: COMP96_0133: IRWB.vhd : (47, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (49, 3): Unknown identifier "mem_r".
+# Error: COMP96_0133: IRWB.vhd : (49, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (50, 6): Unknown identifier "addr1".
+# Error: COMP96_0133: IRWB.vhd : (50, 6): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (51, 3): Unknown identifier "addr2".
+# Error: COMP96_0133: IRWB.vhd : (51, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (53, 3): Unknown identifier "opcode".
+# Error: COMP96_0133: IRWB.vhd : (53, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (55, 3): Unknown identifier "instance_en".
+# Error: COMP96_0133: IRWB.vhd : (55, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (57, 3): Unknown identifier "mem_r".
+# Error: COMP96_0133: IRWB.vhd : (57, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (58, 3): Unknown identifier "opcode".
+# Error: COMP96_0133: IRWB.vhd : (58, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (59, 3): Unknown identifier "reg_a".
+# Error: COMP96_0133: IRWB.vhd : (59, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (60, 3): Unknown identifier "reg_b".
+# Error: COMP96_0133: IRWB.vhd : (60, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (62, 3): Unknown identifier "instance_en".
+# Error: COMP96_0133: IRWB.vhd : (62, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (65, 3): Unknown identifier "mem_r".
+# Error: COMP96_0133: IRWB.vhd : (65, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (66, 3): Unknown identifier "opcode".
+# Error: COMP96_0133: IRWB.vhd : (66, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (67, 3): Unknown identifier "reg_a".
+# Error: COMP96_0133: IRWB.vhd : (67, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (68, 3): Unknown identifier "reg_b".
+# Error: COMP96_0133: IRWB.vhd : (68, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (70, 3): Unknown identifier "instance_number".
+# Error: COMP96_0133: IRWB.vhd : (70, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (71, 3): Unknown identifier "instance_number".
+# Error: COMP96_0133: IRWB.vhd : (71, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (72, 3): Unknown identifier "instance_en".
+# Error: COMP96_0133: IRWB.vhd : (72, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (76, 3): Unknown identifier "mem_r".
+# Error: COMP96_0133: IRWB.vhd : (76, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (77, 3): Unknown identifier "opcode".
+# Error: COMP96_0133: IRWB.vhd : (77, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (78, 3): Unknown identifier "instance_en".
+# Error: COMP96_0133: IRWB.vhd : (78, 3): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (86, 8): Unknown identifier "pc_fromalu".
+# Error: COMP96_0133: IRWB.vhd : (86, 8): Cannot find object declaration.
+# Error: COMP96_0077: IRWB.vhd : (86, 8): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0078: IRWB.vhd : (87, 4): Unknown identifier "rom_addr".
+# Error: COMP96_0133: IRWB.vhd : (87, 4): Cannot find object declaration.
+# Error: COMP96_0078: IRWB.vhd : (90, 4): Unknown identifier "rom_addr".
+# Error: COMP96_0133: IRWB.vhd : (90, 4): Cannot find object declaration.
+# Compile failure 77 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7251 kB (elbread=1280 elab2=5821 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\wave.asdb
+#  23:14, 2017年11月8日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__25.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g4,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: stopped at time: 100 ns
+run 100ns
+# KERNEL: stopped at time: 200 ns
+# KERNEL: Warning: KERNEL_0291 Signal '/top/clk' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/clk1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/rom_addr' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/addr1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/addr2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/addr3' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/output1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/output2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/input' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/opcode' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/reg_sa' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/reg_sb' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/reg_sc' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/alu_a' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/alu_b' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/alu_c' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/mem_w' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/mem_r' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/instruction' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/instance_number' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/instance_en' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/instructionOut' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/processcounter' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/reg' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/pc_fromalu' has already been traced.
+# 2 signal(s) traced.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+top top sample
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7251 kB (elbread=1280 elab2=5821 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\wave.asdb
+#  23:14, 2017年11月8日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb'.
+# 27 signal(s) traced.
+run 100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__25.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g4,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: stopped at time: 100 ns
+run 100ns
+# KERNEL: stopped at time: 200 ns
+run 100ns
+# KERNEL: stopped at time: 300 ns
+run 100ns
+# KERNEL: stopped at time: 400 ns
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Error: COMP96_0078: top.vhd : (102, 38): Unknown identifier "clk1".
+# Error: COMP96_0133: top.vhd : (102, 38): Cannot find object declaration.
+# Error: COMP96_0104: top.vhd : (102, 38): Undefined type of expression.
+# Error: COMP96_0078: top.vhd : (104, 40): Unknown identifier "clk1".
+# Error: COMP96_0133: top.vhd : (104, 40): Cannot find object declaration.
+# Error: COMP96_0104: top.vhd : (104, 40): Undefined type of expression.
+# Error: COMP96_0078: top.vhd : (105, 40): Unknown identifier "clk1".
+# Error: COMP96_0133: top.vhd : (105, 40): Cannot find object declaration.
+# Error: COMP96_0104: top.vhd : (105, 40): Undefined type of expression.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile failure 9 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7250 kB (elbread=1280 elab2=5820 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\wave.asdb
+#  23:16, 2017年11月8日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /top/clk1 not found in D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb.
+run 100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__25.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g4,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 100 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 100 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: stopped at time: 100 ns
+run 100ns
+# KERNEL: stopped at time: 200 ns
+run 100ns
+# KERNEL: stopped at time: 300 ns
+run 100ns
+# KERNEL: stopped at time: 400 ns
+run 100ns
+# KERNEL: stopped at time: 500 ns
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7250 kB (elbread=1280 elab2=5820 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\wave.asdb
+#  23:20, 2017年11月8日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /top/instructionOut3 not found in D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb.
+run 100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__25.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g4,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 100 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 100 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: stopped at time: 100 ns
+run 100ns
+# KERNEL: stopped at time: 200 ns
+run 100ns
+# KERNEL: stopped at time: 300 ns
+run 100ns
+# KERNEL: stopped at time: 400 ns
+run 100ns
+# KERNEL: stopped at time: 500 ns
+run 100ns
+# KERNEL: stopped at time: 600 ns
+run 100ns
+# KERNEL: stopped at time: 700 ns
+run 100ns
+# KERNEL: stopped at time: 800 ns
+# KERNEL: Warning: KERNEL_0291 Signal '/top/rom_addr' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/addr1' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/addr2' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/reg_sa' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/reg_sb' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/output1' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/output2' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/alu_a' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/alu_b' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/mem_r' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/reg' has already been traced.
+# 0 signal(s) traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/instruction' has already been traced.
+# 0 signal(s) traced.
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Warning: COMP96_0367: top.vhd : (44, 18): Improper array length (3). Expected length is 2.
+# Warning: COMP96_0367: top.vhd : (47, 18): Improper array length (3). Expected length is 2.
+# Warning: COMP96_0367: top.vhd : (49, 18): Improper array length (3). Expected length is 2.
+# Warning: COMP96_0367: top.vhd : (51, 18): Improper array length (3). Expected length is 2.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 4 Warnings  Analysis time :  0.9 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7250 kB (elbread=1280 elab2=5820 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\wave.asdb
+#  23:27, 2017年11月8日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/clk' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/rom_addr' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/addr1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/addr2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/addr3' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/output1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/output2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/input' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/opcode' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/reg_sa' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/reg_sb' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/reg_sc' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/alu_a' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/alu_b' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/alu_c' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/mem_w' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/mem_r' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/instruction' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/instance_number' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/instance_en' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/instructionOut' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/instructionOut2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/processcounter' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/reg' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/pc_fromalu' has already been traced.
+# 2 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__25.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g4,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: stopped at time: 100 ns
+run 100ns
+# KERNEL: stopped at time: 200 ns
+run 100ns
+# KERNEL: stopped at time: 300 ns
+run 100ns
+# KERNEL: stopped at time: 400 ns
+run 100ns
+# KERNEL: stopped at time: 500 ns
+run 100ns
+# KERNEL: stopped at time: 600 ns
+run 100ns
+# KERNEL: stopped at time: 700 ns
+run 100ns
+# KERNEL: stopped at time: 800 ns
+run 100ns
+# KERNEL: stopped at time: 900 ns
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Error: COMP96_0077: top.vhd : (28, 63): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0079: top.vhd : (28, 51): Invalid aggregate.
+# Error: COMP96_0077: top.vhd : (28, 51): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'micprocesser.irwb' instantiated in architecture 'sample:top' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# 
+# Error: Cannot initialize simulation - no top level  entity/architecture or configuration is selected
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'micprocesser.irwb' instantiated in architecture 'sample:top' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'micprocesser.irwb' instantiated in architecture 'sample:top' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'micprocesser.irwb' instantiated in architecture 'sample:top' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'micprocesser.irwb' instantiated in architecture 'sample:top' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+top top sample
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7250 kB (elbread=1280 elab2=5820 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\wave.asdb
+#  23:36, 2017年11月8日
+#  Simulation has been initialized
+# KERNEL: Warning: KERNEL_0291 Signal '/top/clk' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/clk1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/rom_addr' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/addr1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/addr2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/addr3' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/output1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/output2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/input' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/opcode' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/reg_sa' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/reg_sb' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/reg_sc' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/alu_a' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/alu_b' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/alu_c' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/mem_w' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/mem_r' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/instruction' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/instance_number' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/instance_en' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/instructionOut' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/instructionOut2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/processcounter' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/reg' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top/pc_fromalu' has already been traced.
+# 0 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__25.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g4,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: stopped at time: 100 ns
+run 100ns
+# KERNEL: stopped at time: 200 ns
+run 100ns
+# KERNEL: stopped at time: 300 ns
+run 100ns
+# KERNEL: stopped at time: 400 ns
+run 100ns
+# KERNEL: stopped at time: 500 ns
+run 100ns
+# KERNEL: stopped at time: 600 ns
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# Error: COMP96_0049: IR.vhd : (80, 10): Syntax error in expression.
+# Error: COMP96_0019: IR.vhd : (89, 24): Keyword 'end' expected.
+# Error: COMP96_0019: IR.vhd : (89, 24): Keyword 'case' expected.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# Error: COMP96_0049: IR.vhd : (80, 11): Syntax error in expression.
+# Error: COMP96_0015: IR.vhd : (80, 11): ')' expected.
+# Error: COMP96_0019: IR.vhd : (80, 12): Keyword 'then' expected.
+# Error: COMP96_0019: IR.vhd : (82, 4): Keyword 'end' expected.
+# Error: COMP96_0019: IR.vhd : (83, 5): Keyword 'case' expected.
+# Error: COMP96_0019: IR.vhd : (86, 7): Keyword 'process' expected.
+# Error: COMP96_0015: IR.vhd : (87, 6): ';' expected.
+# Error: COMP96_0016: IR.vhd : (87, 8): Design unit declaration expected.
+# Error: COMP96_0019: IR.vhd : (89, 24): Keyword 'of' expected.
+# Error: COMP96_0018: IR.vhd : (89, 24): Identifier expected.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile failure 10 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# Error: COMP96_0049: IR.vhd : (80, 11): Syntax error in expression.
+# Error: COMP96_0015: IR.vhd : (80, 11): ')' expected.
+# Error: COMP96_0019: IR.vhd : (80, 12): Keyword 'then' expected.
+# Error: COMP96_0019: IR.vhd : (82, 4): Keyword 'end' expected.
+# Error: COMP96_0019: IR.vhd : (83, 5): Keyword 'case' expected.
+# Error: COMP96_0019: IR.vhd : (86, 7): Keyword 'process' expected.
+# Error: COMP96_0015: IR.vhd : (87, 6): ';' expected.
+# Error: COMP96_0016: IR.vhd : (87, 8): Design unit declaration expected.
+# Error: COMP96_0019: IR.vhd : (89, 24): Keyword 'of' expected.
+# Error: COMP96_0018: IR.vhd : (89, 24): Identifier expected.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile failure 10 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# Error: COMP96_0049: IR.vhd : (80, 12): Syntax error in expression.
+# Error: COMP96_0015: IR.vhd : (80, 12): ')' expected.
+# Error: COMP96_0019: IR.vhd : (80, 14): Keyword 'then' expected.
+# Error: COMP96_0019: IR.vhd : (82, 4): Keyword 'end' expected.
+# Error: COMP96_0019: IR.vhd : (83, 5): Keyword 'case' expected.
+# Error: COMP96_0019: IR.vhd : (86, 7): Keyword 'process' expected.
+# Error: COMP96_0015: IR.vhd : (87, 6): ';' expected.
+# Error: COMP96_0016: IR.vhd : (87, 8): Design unit declaration expected.
+# Error: COMP96_0019: IR.vhd : (89, 24): Keyword 'of' expected.
+# Error: COMP96_0018: IR.vhd : (89, 24): Identifier expected.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile failure 10 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# Error: COMP96_0049: IR.vhd : (80, 11): Syntax error in expression.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# Error: COMP96_0049: IR.vhd : (80, 11): Syntax error in expression.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# Error: COMP96_0049: IR.vhd : (80, 11): Syntax error in expression.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# Error: COMP96_0367: IR.vhd : (81, 22): Improper array length (4). Expected length is 32.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7250 kB (elbread=1280 elab2=5820 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\wave.asdb
+#  23:41, 2017年11月8日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb'.
+run 100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__25.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g4,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: stopped at time: 100 ns
+run 100ns
+# KERNEL: stopped at time: 200 ns
+run 100ns
+# KERNEL: stopped at time: 300 ns
+run 100ns
+# KERNEL: stopped at time: 400 ns
+run 100ns
+# KERNEL: stopped at time: 500 ns
+run 100ns
+# KERNEL: stopped at time: 600 ns
+run 100ns
+# KERNEL: stopped at time: 700 ns
+run 100ns
+# KERNEL: stopped at time: 800 ns
+run 100ns
+# KERNEL: stopped at time: 900 ns
+run 100ns
+# KERNEL: stopped at time: 1 us
+run 100ns
+# KERNEL: stopped at time: 1100 ns
+run 100ns
+# KERNEL: stopped at time: 1200 ns
+run 100ns
+# KERNEL: stopped at time: 1300 ns
+run 100ns
+# KERNEL: stopped at time: 1400 ns
+run 100ns
+# KERNEL: stopped at time: 1500 ns
+run 100ns
+# KERNEL: stopped at time: 1600 ns
+run 100ns
+# KERNEL: stopped at time: 1700 ns
+run 100ns
+# KERNEL: stopped at time: 1800 ns
+run 100ns
+# KERNEL: stopped at time: 1900 ns
+run 100ns
+# KERNEL: stopped at time: 2 us
+run 100ns
+# KERNEL: stopped at time: 2100 ns
+run 100ns
+# KERNEL: stopped at time: 2200 ns
+run 100ns
+# KERNEL: stopped at time: 2300 ns
+run 100ns
+# KERNEL: stopped at time: 2400 ns
+run 100ns
+# KERNEL: stopped at time: 2500 ns
+run 100ns
+# KERNEL: stopped at time: 2600 ns
+run 100ns
+# KERNEL: stopped at time: 2700 ns
+run 100ns
+# KERNEL: stopped at time: 2800 ns
+run 100ns
+# KERNEL: stopped at time: 2900 ns
+run 100ns
+# KERNEL: stopped at time: 3 us
+run 100ns
+# KERNEL: stopped at time: 3100 ns
+run 100ns
+# KERNEL: stopped at time: 3200 ns
+run 100ns
+# KERNEL: stopped at time: 3300 ns
+run 100ns
+# KERNEL: stopped at time: 3400 ns
+run 100ns
+# KERNEL: stopped at time: 3500 ns
+run 100ns
+# KERNEL: stopped at time: 3600 ns
+run 100ns
+# KERNEL: stopped at time: 3700 ns
+run 100ns
+# KERNEL: stopped at time: 3800 ns
+run 100ns
+# KERNEL: stopped at time: 3900 ns
+run 100ns
+# KERNEL: stopped at time: 4 us
+run 100ns
+# KERNEL: stopped at time: 4100 ns
+run 100ns
+# KERNEL: stopped at time: 4200 ns
+run 100ns
+# KERNEL: stopped at time: 4300 ns
+run 100ns
+# KERNEL: stopped at time: 4400 ns
+run 100ns
+# KERNEL: stopped at time: 4500 ns
+run 100ns
+# KERNEL: stopped at time: 4600 ns
+run 100ns
+# KERNEL: stopped at time: 4700 ns
+run 100ns
+# KERNEL: stopped at time: 4800 ns
+run 100ns
+# KERNEL: stopped at time: 4900 ns
+run 100ns
+# KERNEL: stopped at time: 5 us
+run 100ns
+# KERNEL: stopped at time: 5100 ns
+run 100ns
+# KERNEL: stopped at time: 5200 ns
+run 100ns
+# KERNEL: stopped at time: 5300 ns
+run 100ns
+# KERNEL: stopped at time: 5400 ns
+run 100ns
+# KERNEL: stopped at time: 5500 ns
+run 100ns
+# KERNEL: stopped at time: 5600 ns
+run 100ns
+# KERNEL: stopped at time: 5700 ns
+run 100ns
+# KERNEL: stopped at time: 5800 ns
+run 100ns
+# KERNEL: stopped at time: 5900 ns
+run 100ns
+# KERNEL: stopped at time: 6 us
+run 100ns
+# KERNEL: stopped at time: 6100 ns
+run 100ns
+# KERNEL: stopped at time: 6200 ns
+run 100ns
+# KERNEL: stopped at time: 6300 ns
+run 100ns
+# KERNEL: stopped at time: 6400 ns
+run 100ns
+# KERNEL: stopped at time: 6500 ns
+run 100ns
+# KERNEL: stopped at time: 6600 ns
+run 100ns
+# KERNEL: stopped at time: 6700 ns
+run 100ns
+# KERNEL: stopped at time: 6800 ns
+run 100ns
+# KERNEL: stopped at time: 6900 ns
+run 100ns
+# KERNEL: stopped at time: 7 us
+run 100ns
+# KERNEL: stopped at time: 7100 ns
+run 100ns
+# KERNEL: stopped at time: 7200 ns
+run 100ns
+# KERNEL: stopped at time: 7300 ns
+run 100ns
+# KERNEL: stopped at time: 7400 ns
+run 100ns
+# KERNEL: stopped at time: 7500 ns
+run 100ns
+# KERNEL: stopped at time: 7600 ns
+run 100ns
+# KERNEL: stopped at time: 7700 ns
+run 100ns
+# KERNEL: stopped at time: 7800 ns
+run 100ns
+# KERNEL: stopped at time: 7900 ns
+run 100ns
+# KERNEL: stopped at time: 8 us
+run 100ns
+# KERNEL: stopped at time: 8100 ns
+run 100ns
+# KERNEL: stopped at time: 8200 ns
+run 100ns
+# KERNEL: stopped at time: 8300 ns
+run 100ns
+# KERNEL: stopped at time: 8400 ns
+run 100ns
+# KERNEL: stopped at time: 8500 ns
+run 100ns
+# KERNEL: stopped at time: 8600 ns
+run 100ns
+# KERNEL: stopped at time: 8700 ns
+run 100ns
+# KERNEL: stopped at time: 8800 ns
+run 100ns
+# KERNEL: stopped at time: 8900 ns
+run 100ns
+# KERNEL: stopped at time: 9 us
+run 100ns
+# KERNEL: stopped at time: 9100 ns
+run 100ns
+# KERNEL: stopped at time: 9200 ns
+run 100ns
+# KERNEL: stopped at time: 9300 ns
+run 100ns
+# KERNEL: stopped at time: 9400 ns
+run 100ns
+# KERNEL: stopped at time: 9500 ns
+run 100ns
+# KERNEL: stopped at time: 9600 ns
+run 100ns
+# KERNEL: stopped at time: 9700 ns
+run 100ns
+# KERNEL: stopped at time: 9800 ns
+run 100ns
+# KERNEL: stopped at time: 9900 ns
+run 100ns
+# KERNEL: stopped at time: 10 us
+run 100ns
+# KERNEL: stopped at time: 10100 ns
+run 100ns
+# KERNEL: stopped at time: 10200 ns
+run 100ns
+# KERNEL: stopped at time: 10300 ns
+run 100ns
+# KERNEL: stopped at time: 10400 ns
+run 100ns
+# KERNEL: stopped at time: 10500 ns
+run 100ns
+# KERNEL: stopped at time: 10600 ns
+run 100ns
+# KERNEL: stopped at time: 10700 ns
+run 100ns
+# KERNEL: stopped at time: 10800 ns
+run 100ns
+# KERNEL: stopped at time: 10900 ns
+run 100ns
+# KERNEL: stopped at time: 11 us
+run 100ns
+# KERNEL: stopped at time: 11100 ns
+run 100ns
+# KERNEL: stopped at time: 11200 ns
+run 100ns
+# KERNEL: stopped at time: 11300 ns
+run 100ns
+# KERNEL: stopped at time: 11400 ns
+run 100ns
+# KERNEL: stopped at time: 11500 ns
+run 100ns
+# KERNEL: stopped at time: 11600 ns
+run 100ns
+# KERNEL: stopped at time: 11700 ns
+run 100ns
+# KERNEL: stopped at time: 11800 ns
+run 100ns
+# KERNEL: stopped at time: 11900 ns
+run 100ns
+# KERNEL: stopped at time: 12 us
+run 100ns
+# KERNEL: stopped at time: 12100 ns
+run 100ns
+# KERNEL: stopped at time: 12200 ns
+run 100ns
+# KERNEL: stopped at time: 12300 ns
+run 100ns
+# KERNEL: stopped at time: 12400 ns
+run 100ns
+# KERNEL: stopped at time: 12500 ns
+run 100ns
+# KERNEL: stopped at time: 12600 ns
+run 100ns
+# KERNEL: stopped at time: 12700 ns
+run 100ns
+# KERNEL: stopped at time: 12800 ns
+run 100ns
+# KERNEL: stopped at time: 12900 ns
+run 100ns
+# KERNEL: stopped at time: 13 us
+run 100ns
+# KERNEL: stopped at time: 13100 ns
+run 100ns
+# KERNEL: stopped at time: 13200 ns
+run 100ns
+# KERNEL: stopped at time: 13300 ns
+run 100ns
+# KERNEL: stopped at time: 13400 ns
+run 100ns
+# KERNEL: stopped at time: 13500 ns
+run 100ns
+# KERNEL: stopped at time: 13600 ns
+run 100ns
+# KERNEL: stopped at time: 13700 ns
+run 100ns
+# KERNEL: stopped at time: 13800 ns
+run 100ns
+# KERNEL: stopped at time: 13900 ns
+run 100ns
+# KERNEL: stopped at time: 14 us
+run 100ns
+# KERNEL: stopped at time: 14100 ns
+run 100ns
+# KERNEL: stopped at time: 14200 ns
+run 100ns
+# KERNEL: stopped at time: 14300 ns
+run 100ns
+# KERNEL: stopped at time: 14400 ns
+run 100ns
+# KERNEL: stopped at time: 14500 ns
+run 100ns
+# KERNEL: stopped at time: 14600 ns
+run 100ns
+# KERNEL: stopped at time: 14700 ns
+run 100ns
+# KERNEL: stopped at time: 14800 ns
+run 100ns
+# KERNEL: stopped at time: 14900 ns
+run 100ns
+# KERNEL: stopped at time: 15 us
+run 100ns
+# KERNEL: stopped at time: 15100 ns
+run 100ns
+# KERNEL: stopped at time: 15200 ns
+run 100ns
+# KERNEL: stopped at time: 15300 ns
+run 100ns
+# KERNEL: stopped at time: 15400 ns
+run 100ns
+# KERNEL: stopped at time: 15500 ns
+run 100ns
+# KERNEL: stopped at time: 15600 ns
+run 100ns
+# KERNEL: stopped at time: 15700 ns
+run 100ns
+# KERNEL: stopped at time: 15800 ns
+run 100ns
+# KERNEL: stopped at time: 15900 ns
+run 100ns
+# KERNEL: stopped at time: 16 us
+run 100ns
+# KERNEL: stopped at time: 16100 ns
+run 100ns
+# KERNEL: stopped at time: 16200 ns
+run 100ns
+# KERNEL: stopped at time: 16300 ns
+run 100ns
+# KERNEL: stopped at time: 16400 ns
+run 100ns
+# KERNEL: stopped at time: 16500 ns
+run 100ns
+# KERNEL: stopped at time: 16600 ns
+run 100ns
+# KERNEL: stopped at time: 16700 ns
+run 100ns
+# KERNEL: stopped at time: 16800 ns
+run 100ns
+# KERNEL: stopped at time: 16900 ns
+run 100ns
+# KERNEL: stopped at time: 17 us
+run 100ns
+# KERNEL: stopped at time: 17100 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+top top sample
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7250 kB (elbread=1280 elab2=5820 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\wave.asdb
+#  23:44, 2017年11月8日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb'.
+run 17100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__25.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g4,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: stopped at time: 17100 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7250 kB (elbread=1280 elab2=5820 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\wave.asdb
+#  23:44, 2017年11月8日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb'.
+# 26 signal(s) traced.
+run 17100ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__25.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g4,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: stopped at time: 17100 ns
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# Error: COMP96_0367: top.vhd : (33, 53): Improper array length (2). Expected length is 3.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7251 kB (elbread=1280 elab2=5821 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\wave.asdb
+#  23:51, 2017年11月8日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb'.
+run 200ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__25.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g4,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 50 ns,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: stopped at time: 200 ns
+run 200ns
+# KERNEL: stopped at time: 400 ns
+run 200ns
+# KERNEL: stopped at time: 600 ns
+run 200ns
+# KERNEL: stopped at time: 800 ns
+acom -O3 -e 100 -work micprocesser -2002  $dsn/src/alu.vhd $dsn/src/mem.vhd $dsn/src/top.vhd $dsn/src/IR.vhd $dsn/src/Rom.vhd $dsn/src/IREX.vhd $dsn/src/IRWB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "sample" of Entity "alu"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\mem.vhd
+# Compile Entity "mem"
+# Compile Architecture "sample" of Entity "mem"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\top.vhd
+# Compile Entity "top"
+# Compile Architecture "sample" of Entity "top"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IR.vhd
+# Compile Entity "ir"
+# Compile Architecture "sample" of Entity "ir"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\Rom.vhd
+# Compile Entity "rom"
+# Compile Architecture "sample" of Entity "rom"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IREX.vhd
+# Compile Entity "irex"
+# Compile Architecture "sample" of Entity "irex"
+# File: D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\IRWB.vhd
+# Compile Entity "irwb"
+# Compile Architecture "sample" of Entity "irwb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7251 kB (elbread=1280 elab2=5821 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location D:\Projects\VHDL\micriprocesserPipe\microprcesser\micprocesser\src\wave.asdb
+#  23:52, 2017年11月8日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/Projects/VHDL/micriprocesserPipe/microprcesser/micprocesser/src/wave.asdb'.
+run 200ns
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__25.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g2,  Process: line__26.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /top/g4,  Process: line__34.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /top/g1,  Process: line__18.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 0 ps,  Iteration: 1,  Instance: /top/g1,  Process: line__18.
+# KERNEL: stopped at time: 200 ns
+run 200ns
+# KERNEL: stopped at time: 400 ns
+run 200ns
+# KERNEL: stopped at time: 600 ns
+run 200ns
+# KERNEL: stopped at time: 800 ns
+run 200ns
+# KERNEL: stopped at time: 1 us
+run 200ns
+# KERNEL: stopped at time: 1200 ns
+run 200ns
+# KERNEL: stopped at time: 1400 ns
+run 200ns
+# KERNEL: stopped at time: 1600 ns
+run 200ns
+# KERNEL: stopped at time: 1800 ns
+run 200ns
+# KERNEL: stopped at time: 2 us
+run 200ns
+# KERNEL: stopped at time: 2200 ns
